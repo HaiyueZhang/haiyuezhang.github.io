@@ -1,0 +1,469 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta name=viewport content="width=1200">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> -->
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+
+    .button {
+    display: inline-block;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: 1772d0;
+    background-color: white;
+    border: 2px solid #1772d0;;
+    border-radius:20px;
+    padding: 1px 10px;
+    font-size: 12px;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #5a6092;
+  }
+  
+    .container {
+    display: flex; /* 使用flexbox布局 */
+    /* align-items: center;  */
+    /* vertical-align: top; */
+    }
+
+
+    .icon {
+      background-color: #bc85d3; /* 调整颜色以匹配准确的色调 */
+      color: white;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      padding: 6px 15px; /* 调整适当的间距 */
+      border-radius: 10px; /* 这提供了药丸形状 */
+      text-align: center;
+      margin-right: 20px;
+      margin-left: 0px;
+      margin-top: 0px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+      height: 27px;
+}
+
+
+
+      nav {
+          background-color: #333;
+          color: #fff;
+          padding: 10px 0;
+          text-align: center;
+      }
+      
+      nav a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: bold;
+          padding: 10px 20px;
+          margin: 0 15px;
+          border-radius: 5px;
+          transition: background-color 0.3s ease;
+      }
+      
+      nav a:hover {
+          background-color: #555;
+      }
+
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+
+    
+    
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+
+    
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 17px,
+    }
+    
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 17px;
+    }
+    
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 24px;
+    }
+    
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 17px;
+      font-weight: 700
+    }
+    
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 34px;
+    }
+    
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+    
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+    .text-block {
+      border: 1px solid #ddd;
+
+      padding: 10px;
+      text-align: center;
+    }
+    span.highlight {
+      background-color: #ffffd0;
+    }
+    
+  </style>
+  <link rel="icon" type="image/png" href="images/dongsen.png">
+  <title>Haiyue Zhang</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <!-- 目录栏 -->
+  <nav>
+    <a href="#section1">Bio</a>
+    <a href="#section2">Education</a>
+    <a href="#section3">Work Experience</a>
+    <a href="#section4">Research & Projects</a>
+    <a href="#section5">Publications</a>
+    <a href="photography-gallery.html">Photography Gallery</a>
+  </nav>
+  <table width="1000" border="0" align="center" cellspacing="0" cellpadding="0" id="section1">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="70%" valign="middle">
+              <p align="center">
+                <name>Haiyue Zhang</name>
+              </p>
+              <p>I am a first-year M.S. Computer Science student at the <a href="https://www.cs.columbia.edu" target="_blank">Columbia University</a>.   
+                Prior to joining Columbia in 2024, I earned my B.S. degree in Computer Science + Statistics from <a href="https://siebelschool.illinois.edu" target="_blank">University of Illinois Urbana-Champaign</a>. 
+              </p>
+                 
+              </p>
+              <p>
+               I am interested in Software Engineering, Machine Learning, Nature Language Processing, Human Computer Interaction.
+               
+              <p>I am seeking SDE/DS/MLE internship on Summer 2025 and a full-time position on Spring 2026.</p> 
+                Feel free to drop me an e-mail, if you are interested in me or potential collaborations!
+              </p>
+              <p align=center style="margin-top: 30px;">
+                <a href="https://weitianxin.github.io/files/Resume_zhy.pdf" target="_blank">
+                  <img src="images/CV.png" alt="CV" style="width: 90px; height: 80px;">
+                </a> &nbsp;&nbsp;
+
+                <a href="mailto:hz2995@columbia.edu" target="_blank">
+                  <img src="images/email.jpg" alt="email" style="width: 100px; height: 100px;">
+                </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <a href="https://github.com/HaiyueZhang" target="_blank">
+                  <img src="images/github.png" alt="github" style="width: 80px; height: 80px;">
+                </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <a href="https://www.linkedin.com/in/haiyue-zhang-b04bb7220/" target="_blank">
+                  <img src="images/linkedin.png" alt="linkedin" style="width: 80px; height: 80px;">
+                </a> &nbsp;
+              </p>
+            </td>
+            <td width="30%">
+              <img src="images/zhy_bio.jpg" class="img-fluid z-depth-1 rounded-circle" width="100%">
+            </td>
+          </tr>
+        </table>
+        
+
+
+        
+        <!-- Education -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="section2">
+          <tbody><tr>
+            <td width="100%" valign="middle">
+              <heading>Education</heading>
+              <hr>
+              <table>
+                <tbody><tr>
+                    <td width="90%">
+                        <br>
+                        <strong>M.S. in Computer Science</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        Sep 2024 - Dec 2025(expected)  <br> 
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        Columbia University <br>
+                    </td>
+                    <td width="10%">
+                      <a href="https://www.columbia.edu" target="_blank">
+                      <img src="images/columbia.png" width="85%" style="display: block; margin-left: auto; margin-right: auto;">
+                    </a>
+                    </td>
+                  </tr>
+                  <tr>
+                  <td width="90%">
+                      <br>
+                      <strong> B.S. in Computer Science + Statistics </strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                       Aug 2020 -  May 2024 <br>
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp&nbsp 
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                      University of Illinois Urbana-Champaign (UIUC)<br>
+                  </td>
+                  <td width="10%">
+                    <a href="https://illinois.edu" target="_blank">
+                      <img src="images/uiuc.png" width="85%" style="display: block; margin-left: auto; margin-right: auto;">
+                    </a>
+                  </td>
+                  
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+          </tbody></table>
+          
+          <!-- Work Experience -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="section3">
+            <tbody><tr>
+              <td width="100%" valign="middle">
+              <heading>Work Experience</heading>
+              <hr>
+              <table>
+                <tbody>
+                  <tr>
+                    <td width="90%">
+                        <br><strong><a href="https://www.microsoft.com/en-us/research/" target="_blank">Microsoft</a></strong> &nbsp&nbsp&nbsp  Shanghai, China<br>
+  
+                          <em>Machine Learning Engineer</em> &nbsp&nbsp&nbsp  May 2024 - Aug 2024<br>
+                          <li> Established baseline with several machine unlearning techniques such as Split learning, Certified Data Removal to "forget" data from trained models like logistic regression, LSTM, MLP on time series, tabular, and image datasets.</li><br>
+                          <li> Implemented machine unlearning framework on hospital's system, enhancing clinical data privacy by enabling data deletion and verifying unlearning effectiveness in trained models, while maintaining approximately 80\% accuracy. </li><br>
+                      
+                    </td>
+        
+                    <td width="50%">
+                      <a href="https://www.microsoft.com/en-us/research/" target="_blank">
+                          <img src="images/microsoft.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+                        </a>
+                    </td>
+                </tr>
+  
+                  <tr>
+                    <td width="90%">
+                        <br><strong><a href="https://business.columbia.edu/lang/student-and-alumni-programming/launch/columbia-build-lab" target="_blank">Columbia Build Lab</a> </strong> &nbsp&nbsp&nbsp  New York, NY<br>
+  
+                          <em>Software Engineer</em> &nbsp&nbsp&nbsp  Sep 2024 - Present<br>
+                          <li> Working under CBL MBA Founder at Mayah Design, a startup Company.</li><br>
+                          <li> Enhance UI/UX design, creating visually engaging and user-friendly interfaces. </li><br>
+                          <li> Developed an advanced recommendation system that provides personalized furnishing suggestions, offering customers a seamless design experience tailored to their unique style preferences and industry best practices. </li><br>
+                    </td>
+        
+                    <td width="50%">
+                      <a href="https://business.columbia.edu/lang/student-and-alumni-programming/launch/columbia-build-lab" target="_blank">
+                          <img src="images/cbs.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                  <td width="90%">
+                      <br><strong><a href="https://siebelschool.illinois.edu" target="_blank">Siebel School of Computing and Data Science</a> </strong> &nbsp&nbsp&nbsp  Champaign, IL<br>
+
+                        <em>Course Assistant</em> &nbsp&nbsp&nbsp  Jan 2023 - May 2024<br>
+                        <li> Hosted weekly Office Hour to support students, clarifying database programming languages (Mysql, MangoDB, Neo4j) and database concepts(Designing Schemas, Querying Databases, Manipulating Databases, Indexing Data).</li><br>
+                        <li> Managed grading rubrics, ensuring meticulous evaluation of machine assignments and final capstone projects.</li><br>
+                        <li> Regularly attended course assistants' meetings, collaborating to enhance and refine curriculum content. </li><br>
+                  </td>
+      
+                  <td width="50%">
+                    <a href="https://siebelschool.illinois.edu" target="_blank">
+                        <img src="images/cds.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+                      </a>
+                  </td>
+              </tr>
+              <tr>
+                <td width="90%">
+                    <br><strong><a href="https://en.daqo.com" target="_blank">DAQO Electrical Institute Co.,Ltd.</a></strong> &nbsp&nbsp&nbsp  Nanjing, China<br>
+
+                      <em>Software Engineer</em> &nbsp&nbsp&nbsp  Summer 2020 & 2021<br>
+                      <li> Developed SCADA/EMS monitoring platform for transformer substations, facilitating immediate fault 
+                        detection.</li><br>
+                      <li> Integrated cloud storage solutions to ensure comprehensive and secure storage of captured equipment data.</li><br>
+                      <li> Developed a visualization platform to facilitate real-time data representation and immediate insight actions. </li><br>
+                      <li> Resulted in a significant 25% increase in order volume and a notable 20% reduction in product fault rates.</li><br>
+                </td>
+    
+                <td width="50%">
+                    <a href="https://en.daqo.com" target="_blank">
+                      <img src="images/daqo.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+                    </a>
+                </td>
+            </tr>
+                </tbody>
+            </table>
+          </td>
+        </tr>
+        </tbody></table>
+
+        <!-- Research & Projects -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="section4">
+            <tbody><tr>
+              <td width="100%" valign="middle">
+              <heading>Research & Projects</heading>
+              <hr>
+              <table>
+                <tbody>
+                  <tr>
+                    <td width="90%">
+                        <br><strong><a href="https://asrm.illinois.edu/illinois-risk-lab/" target="_blank">Illinois Risk Lab</a></strong> &nbsp&nbsp&nbsp  Champaign, IL<br>
+  
+                          <em> Research Assistant Under Professor <a href="https://www.zhiyuquan.net" target="_blank"> Frank Quan</a></em>  &nbsp&nbsp&nbsp  Aug 2023 - Dec 2023 <br>
+                          <li> Implemented and compared various optimization techniques, including Google OR-Tools, PyVRP, VRPy, and strategies from Amazon, to enhance delivery efficiency and reduce costs for a top-tier pharmacy company.</li><br>
+                          <li> Utilized Map API to capture real-world transit data and duration to generate distance/time matrix for models. </li><br>
+                          <li> Crafted innovative graph algorithms to optimize routes, reduce fuel use, and elevate delivery efficiency.</li><br>
+                      
+                    </td>
+        
+                    <td width="50%">
+                      <a href="https://asrm.illinois.edu/illinois-risk-lab/" target="_blank">
+                          <img src="images/irisk.jpeg" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+                        </a>
+                    </td>
+                </tr>
+  
+                  <tr>
+                    <td width="90%">
+                        <br><strong> <a href="https://stat.illinois.edu/academics/graduate-programs/undergraduate-research" target="_blank">Undergraduate Research Experience in Statistics (URES)</a></strong> &nbsp&nbsp&nbsp  Champaign, IL<br>
+  
+                          <em> Research Assistant Under Professor <a href="https://stat.illinois.edu/directory/profile/sculpepp" target="_blank"> Steven A. Culpepper </a></em> &nbsp&nbsp&nbsp  Aug 2023 - Dec 2023 <br>
+                          <li> Completed a project mastering Bayesian regression methods for binary, polytomous, and multiple outcome variables.</li><br>
+                          <li>  Analyzed heart attack dataset using advanced techniques like Hamiltonian Monte Carlo and Horseshoe Prior to build a Bayesian model and predict the effectiveness of blood pressure, cholesterol, fasting blood sugar, and more. </li><br>
+                    </td>
+        
+                    <td width="50%">
+                      <a href="https://stat.illinois.edu/academics/graduate-programs/undergraduate-research" target="_blank">
+                          <img src="images/stats.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                  <td width="90%">
+                      <br><strong> <a href="https://en.ustc.edu.cn" target="_blank">University of Science and Technology of China</a> </strong> &nbsp&nbsp&nbsp  Hefei, China<br>
+                      <em> Research Assistant Under Professor <a href="http://staff.ustc.edu.cn/~xiangyangli/" target="_blank"> Xiangyang Li </a> and <a href="https://songqi1990.github.io" target="_blank"> Qi Song </a> </em> &nbsp&nbsp&nbsp  May 2023 - Aug 2023 <br>
+                      <li> Work on integrating Knowledge Graphs into Large Language Models to enhance LLM’s reasoning capabilities.</li><br>
+                      <li> Tasked with embedding KG into LLM with a priority to maintain and enhance LLM model sophistication.</li><br>
+                      <li> Utilized knowledge augmentation, refining LLMs’embedding and KGs for pretraining enhancements, and developed the KEFF framework with modules for knowledge enhancement and filtering. </li><br>
+                  </td>
+      
+                  <td width="50%">
+                    <a href="https://en.ustc.edu.cn" target="_blank">
+                        <img src="images/ustc.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+                        </a>
+                  </td>
+              </tr>
+              <tr>
+                <td width="90%">
+                    <br><strong> <a href="https://github.com/ParachuteTeam/Parachute" target="_blank">Web-based scheduling Application: Parachute</a> </strong> &nbsp&nbsp&nbsp  Champaign, IL<br>
+                    <em> Codevelop with Raymond Wu, Yu Qian, Yuteng Zhuang </em> &nbsp&nbsp&nbsp  Jan 2023 - Dec 2023 <br>
+                        <li> Employed as a fullstack engineer, builting <a href="https://parachute.fyi" target="_blank">Parachute.fyi</a>, an advanced web-based scheduling tool eclipsing 
+                          <a href="https://when2meet.com" target="_blank">when2meet.com</a> by providing a sophisticated user interface and authentication system, employing cutting-edge technologies including React, Next.js, TypeScript, Prisma, tRPC, and PostgreSQL.</li><br>
+                </td>
+    
+                <td width="50%">
+                  <a href="https://github.com/ParachuteTeam/Parachute" target="_blank">
+                      <img src="images/parachute.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+                      </a>
+                </td>
+            </tr>
+                </tbody>
+            </table>
+          </td>
+        </tr>
+        </tbody></table>
+      
+        <!-- Publication -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="section5">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Publications</heading>
+            </td>
+             
+          </tr>
+        </table>
+
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<strong>Journal</strong>
+        <br>
+        <br>
+        <ul>
+          <li>
+            <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.032623" target="_blank"> <strong>Quantum circuit autoencoder</strong></a>
+                      <p>Jun Wu, Hao Fu, Mingzheng Zhu, <u>Haiyue Zhang</u>, Wei Xie, Xiang-Yang Li</p>
+                      <p><em>PHYSICAL REVIEW A.</em></p>
+                      <img src="images/tag-ann.png" width="18.5%"> <img src="images/tag-qac.png" width="23.5%">
+
+        </ul>
+        
+        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5w8l886z2zy&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+
+        <br>
+        <br>
+
+        <!-- Education -->
+       <script type="text/javascript">
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+          try {
+            var pageTracker = _gat._getTracker("UA-7580334-1");
+            pageTracker._trackPageview();
+          } catch (err) {}
+        </script>
+        </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

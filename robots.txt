@@ -1,0 +1,7 @@
+User‑agent: *
+Disallow: /files/
+
+# Everything else is OK
+Allow: /
+
+Sitemap: https://yourwebsite.com/sitemap.xml
